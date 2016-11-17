@@ -1,0 +1,36 @@
+﻿.mt32 {
+    margin-top: 32px !important;
+}
+
+.pageTitle {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*Header*/
+.navbar li:hover {
+    background-color: #DBDBDB;
+}
+.navbar-nav a:focus {
+    color: #222222 !important;
+}
+.navbar-nav a:hover {
+    color: #222222 !important;
+}
+.navbar {
+    border-bottom: 0px;
+}
+
+/*Footer*/
+footer {
+    background-color: #323232;
+    color: #fff;
+}
+
+footer p {
+    margin: initial;
+    padding: 5px;
+}
