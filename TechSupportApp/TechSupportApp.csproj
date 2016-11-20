@@ -389,6 +389,20 @@
     <Compile Include="Site\Customer\UpdateCust.aspx.designer.cs">
       <DependentUpon>UpdateCust.aspx</DependentUpon>
     </Compile>
+        <Compile Include="Site\Ticket\AddIncident.aspx.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Ticket\AddIncident.aspx.designer.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Ticket\UpdateIncident.aspx.cs">
+      <DependentUpon>UpdateIncident.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Ticket\UpdateIncident.aspx.designer.cs">
+      <DependentUpon>UpdateIncident.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site\Tech\AddTech.aspx.cs">
       <DependentUpon>AddTech.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
