@@ -217,6 +217,8 @@
     <Content Include="Site\Customer\UpdateCust.aspx" />
     <Content Include="Site\Tech\AddTech.aspx" />
     <Content Include="Site\Tech\UpdateTech.aspx" />
+    <Content Include="Site\Ticket\AddIncident.aspx" />
+    <Content Include="Site\Ticket\UpdateIncident.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -389,26 +391,26 @@
     <Compile Include="Site\Customer\UpdateCust.aspx.designer.cs">
       <DependentUpon>UpdateCust.aspx</DependentUpon>
     </Compile>
-        <Compile Include="Site\Ticket\AddIncident.aspx.cs">
-      <DependentUpon>AddIncident.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site\Ticket\AddIncident.aspx.designer.cs">
-      <DependentUpon>AddIncident.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Site\Ticket\UpdateIncident.aspx.cs">
-      <DependentUpon>UpdateIncident.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site\Ticket\UpdateIncident.aspx.designer.cs">
-      <DependentUpon>UpdateIncident.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site\Tech\AddTech.aspx.cs">
       <DependentUpon>AddTech.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site\Tech\AddTech.aspx.designer.cs">
       <DependentUpon>AddTech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Ticket\AddIncident.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Ticket\AddIncident.aspx.designer.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Ticket\UpdateIncident.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UpdateIncident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Ticket\UpdateIncident.aspx.designer.cs">
+      <DependentUpon>UpdateIncident.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="Site\Tech\UpdateTech.aspx.cs">
