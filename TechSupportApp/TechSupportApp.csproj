@@ -213,6 +213,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="Site\Customer\AddCust.aspx" />
+    <Content Include="Site\Customer\UpdateCust.aspx" />
     <Content Include="Site\Tech\AddTech.aspx" />
     <Content Include="Site\Tech\UpdateTech.aspx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -372,6 +374,20 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Customer\AddCust.aspx.cs">
+      <DependentUpon>AddCust.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Customer\AddCust.aspx.designer.cs">
+      <DependentUpon>AddCust.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Customer\UpdateCust.aspx.cs">
+      <DependentUpon>UpdateCust.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Customer\UpdateCust.aspx.designer.cs">
+      <DependentUpon>UpdateCust.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site\Tech\AddTech.aspx.cs">
       <DependentUpon>AddTech.aspx</DependentUpon>
