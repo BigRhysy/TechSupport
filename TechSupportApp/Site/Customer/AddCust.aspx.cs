@@ -1,7 +1,7 @@
 ﻿//////
-/// Created by: Bourne Gordon-Krueger, 0103285514
-/// Date modified: 17-11-2016
-/// Purpose: Add new Technicians
+/// Created by: Rhys Cunningham, 0103285514
+/// Date modified: 18-11-2016
+/// Purpose: Add new Customer
 /// Known bugs: 
 //////
 

@@ -1,7 +1,7 @@
 ﻿<%--//////
 /// Created by: Rhys Cunningham, 4101651512
 /// Date modified: 18-11-2016
-/// Purpose: Add new Customers
+/// Purpose: View details and products registered to customer
 /// Known bugs: 
 //////--%>
 

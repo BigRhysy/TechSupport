@@ -1,4 +1,10 @@
-﻿using System;
+﻿//////
+/// Created by: Rhys Cunningham, 4101651512
+/// Date modified: 18-11-2016
+/// Purpose: Register products with a customer
+/// Known bugs: 
+//////
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
