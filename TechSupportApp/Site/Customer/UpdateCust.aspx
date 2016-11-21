@@ -5,14 +5,15 @@
 /// Known bugs: 
 //////--%>
 
-<%@ Page Title="Technician Maintenance" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="UpdateCust.aspx.cs" Inherits="TechSupportApp._TechnicianMaintenance" %>
+<%@ Page Title="Customer Maintenance" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="UpdateCust.aspx.cs" Inherits="TechSupportApp._CustomerMaintenance" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <span class="pageTitle">Customer Maintenance</span>
         <div class="mt32">
             <a runat="server" class="btn btn-default" href="~/Site/Customer/AddCust">Add a Customer</a>
+            <asp:Button ID="btnViewCust" runat="server" CssClass="btn btn-default" style="margin-top: 0" Text="View Customer" OnClick="btnViewCust_Click" />
         </div>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" class="mt32" CellPadding="4" DataKeyNames="CustomerID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Width="100%" AllowSorting="True">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="mt32" CellPadding="4" DataKeyNames="CustomerID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Width="100%" AllowSorting="True" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
                 <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />

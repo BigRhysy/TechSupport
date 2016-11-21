@@ -12,7 +12,7 @@
         <div class="mt32">
             <a runat="server" class="btn btn-default" href="~/Site/Tech/AddTech">Add a Technician</a>
         </div>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" class="mt32" CellPadding="4" DataKeyNames="TechID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Width="100%" AllowSorting="True">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="mt32" CellPadding="4" DataKeyNames="TechID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Width="100%" AllowSorting="True">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
                 <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
